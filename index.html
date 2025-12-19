@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Yadav | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Updated Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+</head>
+<body>
+    <!-- Background Elements for Visual Interest -->
+    <div class="bg-blur"></div>
+    <div class="bg-blur-2"></div>
+    <div class="bg-blur-3"></div>
+    
+    <!-- Animated Background Shapes -->
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+    
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="logo-text">Portfolio</span>
+                <span class="logo-dot">.</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-code"></i> <span>Skills</span></a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> <span>Projects</span></a></li>
+                <!-- <li><a href="#resume" class="nav-link"><i class="fas fa-file-alt"></i> <span>Resume</span></a></li> -->
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home/Introduction Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <!-- Animated typing effect for name -->
+                    <div class="name-container">
+                        <h1 class="name">Akash Yadav</h1>
+                        <span class="typing-cursor"></span>
+                    </div>
+                    <h2 class="title">
+                        <span class="title-word">Web</span>
+                        <span class="title-word">Developer</span>
+                    </h2>
+                    <p class="intro">
+                        Passionate web developer with expertise in creating responsive, 
+                        user-friendly websites. Currently pursuing a degree in Computer 
+                        Science and seeking internship opportunities to apply my skills 
+                        in a professional environment.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Contact Me</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- Social Links in Home -->
+                    <div class="home-social">
+                        <a href="www.linkedin.com/in/akash-yadav-888900375" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/akashyadav-tech" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                        <!-- <a href="#" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram Profile"><i class="fab fa-instagram"></i></a> -->
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="avatar-wrapper">
+                        <div class="avatar">
+                            <div class="avatar-content">
+    <img src="myphoto.jpg" alt="Akash Yadav" class="profile-img">
+</div>
+
+                            <div class="avatar-ring"></div>
+                            <div class="avatar-ring-2"></div>
+                        </div>
+                        <div class="avatar-badge">
+                            <i class="fas fa-star"></i>
+                            Available for Internship
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <a href="#skills">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div class="arrow">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Expertise</span>
+                <h2 class="section-title" style="margin-left: 50px;">Technical Skills</h2>
+                <p class="section-description">Technologies and tools I use to bring ideas to life</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>HTML5</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="95"></div>
+                        </div>
+                        <p>Semantic markup, accessibility, and modern HTML5 features.</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>CSS3</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="90"></div>
+                        </div>
+                        <p>Responsive design, Flexbox, Grid, animations, and CSS frameworks.</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                        <p>ES6+, DOM manipulation, APIs, and basic frontend frameworks.</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Responsive Design</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="92"></div>
+                        </div>
+                        <p>Creating websites that work perfectly on all devices and screen sizes.</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Git & GitHub</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="88"></div>
+                        </div>
+                        <p>Version control, collaboration, and project management using Git.</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-video"></i>
+
+                    </div>
+                    <div class="skill-content">
+    <h3>Video Editing</h3>
+    <div class="skill-bar">
+        <div class="skill-progress" data-level="80"></div>
+    </div>
+    <p>Basic to intermediate video editing including cutting, transitions, text overlays, and audio synchronization.</p>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Portfolio</span>
+                <h2 class="section-title" style="margin-left: 50px;">Featured Projects</h2>
+                <p class="section-description">Showcasing my recent work and achievements</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('food-delivery.jpg');"  >
+
+                        <div class="project-badge">Featured</div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://food-delivery-vzk7.onrender.com" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/akashyadav-tech/food-delivery" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date">November 2025</span>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                        <h3>Food-delivery website</h3>
+                        <p>A responsive food delivery website that allows users to explore menus, and place orders online. Designed with a clean UI to ensure a smooth and user-friendly ordering experience.</p>
+                        <!-- <a href="#" class="project-btn">View Details <i class="fas fa-arrow-right"></i></a> -->
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('to-do.jpg');">
+                        <div class="project-badge">New</div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://to-do-kqub.onrender.com" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/akashyadav-tech/to-do" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date">December 2025</span>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                        <h3>To-do Web app</h3>
+                        <p>An interactive task management application that allows users to add, edit, and delete tasks. Features local storage for data persistence.</p>
+                        <!-- <a href="#" class="project-btn">Try it now<i class="fas fa-arrow-right"></i></a> -->
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('tic-tac-toe.jpg'); ">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://tic-tac-toe-1zqu.onrender.com" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/akashyadav-tech/tic-tac-toe" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date">December 2025</span>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <!-- <span class="project-tag">API</span> -->
+                            </div>
+                        </div>
+                        <h3>Tic-tac-toe</h3>
+                        <p>About
+A simple and interactive Tic-Tac-Toe web application built using HTML, CSS, and JavaScript with win detection and game state tracking</p>
+                        <!-- <a href="#" class="project-btn">View Details <i class="fas fa-arrow-right"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View All Projects Button -->
+            <div class="view-all">
+                <a href="#" class="btn btn-outline">
+                    <span>View All Projects</span>
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Journey</span>
+                <h2 class="section-title" style="margin-left: 50px;">Education & Experience</h2>
+                <p class="section-description">Academic background and professional experience</p>
+            </div>
+            <div class="resume-content">
+                <!-- Timeline for Education and Experience -->
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - 2028</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Technology in Computer Science Engineering (Artificial Intelligence)</h3>
+                            <p class="timeline-subtitle">GL Bajaj Institute of Technology & Management, Greater Noida</p>
+                            <p>Current GPA: 8.11/10.0</p>
+                            <p>Relevant Coursework: Data Structures & Algorithms, Artificial Intelligence, Machine Learning, Web Development, Database Management Systems, Software Engineering</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">November 2025</div>
+                        <div class="timeline-content">
+    <h3>Web Development Intern</h3>
+    <p class="timeline-subtitle">SkillCraft Technology</p>
+    <p>
+        Worked on designing and developing responsive web pages using HTML, CSS, and JavaScript.
+        Implemented interactive UI components and improved website usability.
+        Collaborated with the team to complete assigned tasks and projects within deadlines.
+    </p>
+</div>
+
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">December 2025 - Present</div>
+                       <div class="timeline-content">
+    <h3>Web Development Intern (Virtual)</h3>
+    <p class="timeline-subtitle">ShadowFox</p>
+    <p>
+        Working in 1-month virtual internship focused on frontend web development.
+        Building responsive web pages using HTML, CSS, and JavaScript.
+        Working on task-based projects to strengthen practical web development skills.
+    </p>
+</div>
+
+                    </div>
+                </div>
+                
+                <!-- Certifications -->
+                <div class="certifications">
+                    <h3 class="certifications-title">Certifications</h3>
+                    <div class="certifications-grid">
+                        <div class="certification-card">
+                            <div class="certification-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="certification-content">
+    <h4>CSS Completion Certificate</h4>
+    <p>Knowledge Gate</p>
+    <span class="certification-date">2025</span>
+</div>
+
+
+                        </div>
+                        <div class="certification-card">
+                            <div class="certification-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                           <div class="certification-content">
+    <h4>Certificate of Participation – Hackshastra Hackathon</h4>
+    <p>Hackshastra</p>
+    <span class="certification-date">2025</span>
+</div>
+
+                        </div>
+                        <div class="certification-card">
+                            <div class="certification-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="certification-content">
+    <h4>Internship Completion Certificate – Web Development</h4>
+    <p>SkillCraft Technology</p>
+    <span class="certification-date">2025</span>
+</div>
+
+                        </div>
+                    </div>
+                    
+                    <!-- Download Resume Button -->
+                    <!-- <div class="download-resume">
+                        <a href="#" class="btn btn-primary">
+                            <!-- <i class="fas fa-download"></i> -->
+                            <!-- <span>Download Resume (PDF)</span> -->
+                        </a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title" style="margin-left: 50px;">Contact Me</h2>
+                <p class="section-description">Feel free to reach out for collaborations or just a friendly hello</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>akashyadav.12.a.5953@gmail.com</p>
+                            <a href="mailto:akashyadav.12.a.5953@gmail.com" class="contact-link">Send Email <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 9305486433</p>
+                            <a href="tel:+919305486433" class="contact-link">Call Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Greater Noida, U.P</p>
+                            <a href="https://maps.app.goo.gl/snL9PLqLgNPKXGgC6" class="contact-link">View on Map <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <div class="contact-form-header">
+                        <h3>Send a Message</h3>
+                        <p>I'll get back to you as soon as possible</p>
+                    </div>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                                <div class="form-icon">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                                <div class="form-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                            <div class="form-icon">
+                                <i class="fas fa-tag"></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                            <div class="form-icon">
+                                <i class="fas fa-pen"></i>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home" class="logo">
+                        <span class="logo-text">Portfolio</span>
+                        <span class="logo-dot">.</span>
+                    </a>
+                    <p>Creating beautiful, functional websites with modern technologies.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <!-- <li><a href="#resume">Resume</a></li> -->
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="www.linkedin.com/in/akash-yadav-888900375" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/akashyadav-tech" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                        <!-- <a href="#" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram Profile"><i class="fab fa-instagram"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Akash Yadav. All rights reserved.</p>
+                <p>Designed with ❤️ </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
